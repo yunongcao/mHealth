@@ -9,8 +9,8 @@ def get_auth_token():
     '''
      get an auth token from json response
     '''
-    username = 'yunongcao'     # Edit your username here
-    password = 'Cao_199181'    # Edit your password here
+    username = 'user'     # Edit your username here
+    password = 'pwd'    # Edit your password here
     # Sending request to api1.0/login by Python requests library
     r = requests.post("https://truthposse2.survos.com/api1.0/security/login",
                       data={"username": username, "password": password})
