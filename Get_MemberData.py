@@ -68,5 +68,5 @@ def make_dataframe(member_data):
 if __name__ == "__main__":
     URL = "https://truthposse2.survos.com/api1.0/members" # the URL where one wants to get data from
     member_data = get_response_json_object(URL)
-    member_df = make_dataframe(member_data)
+    member_df = make_dataframe(member_data) # comment this line if one wants the original json file
     print member_df # check result
