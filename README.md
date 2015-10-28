@@ -7,4 +7,5 @@ username and password need to be edited in function get_auth_token() to get toke
 ### Librabry needed
 urllib2, requests, json, numpy, pandas  
 Such libraries can be easily installed via pip in command line, e.g.  
-	pip install urllib2
+
+		pip install urllib2
